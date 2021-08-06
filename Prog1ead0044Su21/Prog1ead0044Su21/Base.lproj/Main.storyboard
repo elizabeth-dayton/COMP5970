@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Prog1ead0044Su21" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FED-M1-GPf">
+                                <rect key="frame" x="135" y="446" width="144" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="WarEagle">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="auburnButtonController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0dr-x8-xyi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3On-d3-fjD">
+                                <rect key="frame" x="165" y="545" width="84" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="SEC"/>
+                                <connections>
+                                    <action selector="secButtonController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MLC-qO-WdP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptQ-uf-2mU">
+                                <rect key="frame" x="145" y="644" width="124" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Roll Tide"/>
+                                <connections>
+                                    <action selector="bamaButtonController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="byE-O3-qyP"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="SECLogo" translatesAutoresizingMaskIntoConstraints="NO" id="GzY-gy-TWc">
+                                <rect key="frame" x="57" y="54" width="300" height="296"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3On-d3-fjD" secondAttribute="trailing" constant="165" id="6Fj-oS-7qW"/>
+                            <constraint firstItem="ptQ-uf-2mU" firstAttribute="top" secondItem="3On-d3-fjD" secondAttribute="bottom" constant="60" id="Lj9-Gb-3Cg"/>
+                            <constraint firstItem="GzY-gy-TWc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="QBo-Ow-cVP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FED-M1-GPf" secondAttribute="trailing" constant="135" id="RN1-fd-iFy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ptQ-uf-2mU" secondAttribute="bottom" constant="179" id="XJR-Gm-1vH"/>
+                            <constraint firstItem="ptQ-uf-2mU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="bSN-y1-saK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ptQ-uf-2mU" secondAttribute="trailing" constant="145" id="bzf-0a-MMk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GzY-gy-TWc" secondAttribute="trailing" constant="57" id="dAi-FG-pgQ"/>
+                            <constraint firstItem="FED-M1-GPf" firstAttribute="top" secondItem="GzY-gy-TWc" secondAttribute="bottom" constant="96" id="g6i-CQ-keS"/>
+                            <constraint firstItem="FED-M1-GPf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="iFs-hz-B4h"/>
+                            <constraint firstItem="3On-d3-fjD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="lMb-od-Mcz"/>
+                            <constraint firstItem="GzY-gy-TWc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="qTz-cj-juf"/>
+                            <constraint firstItem="3On-d3-fjD" firstAttribute="top" secondItem="FED-M1-GPf" secondAttribute="bottom" constant="60" id="r3l-Cz-8Li"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="auburnButtonOutlet" destination="FED-M1-GPf" id="R1V-4O-R88"/>
+                        <outlet property="bamaButtonOutlet" destination="ptQ-uf-2mU" id="Ppg-Cr-ckT"/>
+                        <outlet property="imageOutlet" destination="GzY-gy-TWc" id="2bo-lz-7cr"/>
+                        <outlet property="secButtonOutlet" destination="3On-d3-fjD" id="nR5-Fn-vw4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SECLogo" width="615" height="620"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
