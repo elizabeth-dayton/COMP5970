@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Expense</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string></string>
+				<key>Amount</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>MonthAndYear</key>
+		<string></string>
+		<key>EssentialBudget</key>
+		<string></string>
+		<key>NonEssentialBudget</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
